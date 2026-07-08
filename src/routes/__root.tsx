@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Verdant Boutique — Vitrine Virtual" },
+      { name: "description", content: "Catálogo online da Verdant Boutique: vestidos, blusas, alfaiataria e acessórios com atendimento pelo WhatsApp." },
+      { name: "author", content: "Verdant Boutique" },
+      { property: "og:title", content: "Verdant Boutique — Vitrine Virtual" },
+      { property: "og:description", content: "Descubra as coleções Verdant e fale com a loja pelo WhatsApp." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
