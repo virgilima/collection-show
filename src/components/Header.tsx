@@ -12,19 +12,14 @@ export function Header() {
           @{STORE.instagram}
         </a>
 
-        <a href="#top" className="flex items-center gap-3 md:absolute md:left-1/2 md:-translate-x-1/2">
+        <a href="#top" className="flex items-center gap-3 mx-auto md:absolute md:left-1/2 md:-translate-x-1/2">
           <VerdantLogo className="h-9 w-9 text-verdant" />
           <div className="leading-none">
-            <div className="font-serif text-2xl tracking-[0.3em] uppercase">Verdant</div>
+            <div className="font-serif text-2xl tracking-[0.3em] uppercase">Lotus</div>
             <div className="mt-1 text-[9px] tracking-[0.4em] uppercase text-muted-foreground text-center">
               Boutique
             </div>
           </div>
-        </a>
-
-        <a href="#catalogo"
-          className="text-xs tracking-[0.2em] uppercase text-foreground hover:text-verdant transition-colors">
-          Ver Catálogo
         </a>
       </div>
     </header>

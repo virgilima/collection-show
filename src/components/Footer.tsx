@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <VerdantLogo className="h-10 w-10 text-verdant" />
           <div>
-            <div className="font-serif text-2xl tracking-[0.3em] uppercase">Verdant</div>
+            <div className="font-serif text-2xl tracking-[0.3em] uppercase">Lotus</div>
             <div className="text-[10px] tracking-[0.35em] uppercase text-muted-foreground mt-1">
               Boutique
             </div>
@@ -31,7 +31,7 @@ export function Footer() {
               className="inline-flex items-center gap-2 border border-border px-4 py-2.5 text-xs tracking-[0.2em] uppercase hover:border-verdant hover:text-verdant transition-colors">
               <Instagram className="h-4 w-4" /> @{STORE.instagram}
             </a>
-            <a href={whatsappLink("catálogo Verdant")} target="_blank" rel="noreferrer"
+            <a href={whatsappLink("catálogo Lotus Boutique")} target="_blank" rel="noreferrer"
               className="inline-flex items-center gap-2 bg-verdant text-primary-foreground px-4 py-2.5 text-xs tracking-[0.2em] uppercase hover:opacity-90 transition-opacity">
               <MessageCircle className="h-4 w-4" /> WhatsApp
             </a>
@@ -40,7 +40,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border/60">
         <div className="container-verdant py-5 text-[10px] tracking-[0.3em] uppercase text-muted-foreground text-center">
-          © {new Date().getFullYear()} Verdant Boutique · Todos os direitos reservados
+          © {new Date().getFullYear()} Lotus Boutique · Todos os direitos reservados
         </div>
       </div>
     </footer>

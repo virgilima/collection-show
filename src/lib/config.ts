@@ -1,6 +1,6 @@
 // Configurações da loja — edite aqui para personalizar
 export const STORE = {
-  name: "Verdant",
+  name: "Lotus",
   tagline: "Elegância que floresce",
   instagram: "verdant",
   instagramUrl: "https://instagram.com/verdant",
@@ -9,6 +9,6 @@ export const STORE = {
 };
 
 export function whatsappLink(productName: string, price?: string) {
-  const msg = `Olá! Tenho interesse na peça "${productName}"${price ? ` (${price})` : ""} do catálogo Verdant. Poderia me passar mais informações?`;
+  const msg = `Olá! Tenho interesse na peça "${productName}"${price ? ` (${price})` : ""} do catálogo Lotus Boutique. Poderia me passar mais informações?`;
   return `https://wa.me/${STORE.whatsapp}?text=${encodeURIComponent(msg)}`;
 }
