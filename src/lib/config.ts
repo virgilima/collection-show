@@ -2,8 +2,8 @@
 export const STORE = {
   name: "Lotus",
   tagline: "Elegância que floresce",
-  instagram: "verdant",
-  instagramUrl: "https://instagram.com/verdant",
+  instagram: "lotus",
+  instagramUrl: "https://instagram.com/lotus",
   // ⚠️ Substitua pelo número real da loja (formato internacional, apenas dígitos)
   whatsapp: "5511999999999",
 };
