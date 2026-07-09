@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Descubra as coleções Lotus Boutique: peças elegantes com atendimento personalizado pelo WhatsApp.",
+          "Catálogo online da Lotus Boutique. Coleções de vestidos, blusas, alfaiataria e acessórios. Atendimento pelo WhatsApp.",
       },
     ],
   }),

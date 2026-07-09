@@ -78,12 +78,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Lotus Boutique — Vitrine Virtual" },
-      { name: "description", content: "Catálogo online da Lotus Boutique: vestidos, blusas, alfaiataria e acessórios com atendimento pelo WhatsApp." },
+      { name: "description", content: "Catálogo online da Lotus Boutique. Coleções de vestidos, blusas, alfaiataria e acessórios. Atendimento pelo WhatsApp." },
       { name: "author", content: "Lotus Boutique" },
       { property: "og:title", content: "Lotus Boutique — Vitrine Virtual" },
-      { property: "og:description", content: "Descubra as coleções Lotus e fale com a loja pelo WhatsApp." },
+      { property: "og:description", content: "Catálogo online da Lotus Boutique. Coleções de vestidos, blusas, alfaiataria e acessórios. Atendimento pelo WhatsApp." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Lotus Boutique — Vitrine Virtual" },
+      { name: "twitter:description", content: "Catálogo online da Lotus Boutique. Coleções de vestidos, blusas, alfaiataria e acessórios. Atendimento pelo WhatsApp." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5a78a517-f2da-4b31-97ca-5cd5d5ea97a7/id-preview-a87ed3fa--b5fc3fca-1515-475e-a762-01975e63def8.lovable.app-1783618116118.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5a78a517-f2da-4b31-97ca-5cd5d5ea97a7/id-preview-a87ed3fa--b5fc3fca-1515-475e-a762-01975e63def8.lovable.app-1783618116118.png" },
     ],
     links: [
       {
