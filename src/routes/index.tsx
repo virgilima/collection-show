@@ -11,17 +11,17 @@ import heroImg from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Verdant Boutique — Vitrine Virtual" },
+      { title: "Lotus Boutique — Vitrine Virtual" },
       {
         name: "description",
         content:
-          "Catálogo online da Verdant Boutique. Coleções de vestidos, blusas, alfaiataria e acessórios. Atendimento pelo WhatsApp.",
+          "Catálogo online da Lotus Boutique. Coleções de vestidos, blusas, alfaiataria e acessórios. Atendimento pelo WhatsApp.",
       },
-      { property: "og:title", content: "Verdant Boutique — Vitrine Virtual" },
+      { property: "og:title", content: "Lotus Boutique — Vitrine Virtual" },
       {
         property: "og:description",
         content:
-          "Descubra as coleções Verdant: peças elegantes com atendimento personalizado pelo WhatsApp.",
+          "Descubra as coleções Lotus Boutique: peças elegantes com atendimento personalizado pelo WhatsApp.",
       },
     ],
   }),
@@ -45,7 +45,7 @@ function Vitrine() {
         <div className="grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-5 space-y-7">
             <p className="eyebrow">Coleção Atual · 2026</p>
-            <h1 className="font-serif text-5xl md:text-6xl leading-[1.05]">
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl leading-[1.05]">
               Elegância <em className="text-verdant not-italic">que floresce</em> em cada detalhe.
             </h1>
             <p className="text-base text-muted-foreground leading-relaxed max-w-md">
@@ -53,11 +53,7 @@ function Vitrine() {
               e converse diretamente com a gente pelo WhatsApp.
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
-              <a href="#catalogo"
-                className="inline-flex items-center bg-foreground text-background px-6 py-3.5 text-xs tracking-[0.25em] uppercase hover:bg-verdant transition-colors">
-                Ver Catálogo
-              </a>
-              <a href={whatsappLink("catálogo Verdant")} target="_blank" rel="noreferrer"
+              <a href={whatsappLink("catálogo Lotus Boutique")} target="_blank" rel="noreferrer"
                 className="inline-flex items-center gap-2 border border-foreground px-6 py-3.5 text-xs tracking-[0.25em] uppercase hover:bg-foreground hover:text-background transition-colors">
                 <MessageCircle className="h-3.5 w-3.5" /> Falar no WhatsApp
               </a>
@@ -68,7 +64,7 @@ function Vitrine() {
             <div className="relative aspect-[4/5] md:aspect-[5/6] overflow-hidden">
               <img
                 src={heroImg}
-                alt="Editorial Verdant"
+                alt="Editorial Lotus Boutique"
                 width={1600}
                 height={1200}
                 className="h-full w-full object-cover"
@@ -155,7 +151,7 @@ function Vitrine() {
               tirar dúvidas de tamanho, cor e combinar entrega ou retirada.
             </p>
             <div className="flex flex-wrap justify-center gap-3 pt-4">
-              <a href={whatsappLink("catálogo Verdant")} target="_blank" rel="noreferrer"
+              <a href={whatsappLink("catálogo Lotus Boutique")} target="_blank" rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-background text-foreground px-7 py-4 text-xs tracking-[0.25em] uppercase hover:bg-verdant-soft transition-colors">
                 <MessageCircle className="h-4 w-4" /> Chamar no WhatsApp
               </a>
@@ -172,7 +168,7 @@ function Vitrine() {
 
       {/* Floating WhatsApp */}
       <a
-        href={whatsappLink("catálogo Verdant")}
+        href={whatsappLink("catálogo Lotus Boutique")}
         target="_blank"
         rel="noreferrer"
         aria-label="Fale no WhatsApp"
